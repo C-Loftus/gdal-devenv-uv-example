@@ -8,6 +8,7 @@
   # https://devenv.sh/packages/
   packages = [
     pkgs.gdal
+    pkgs.python312.dev 
   ];
 
   # https://devenv.sh/languages/
