@@ -1,3 +1,7 @@
 from osgeo import gdal
 
-print(gdal.VersionInfo("VERSION_NUM"))
+version = gdal.VersionInfo()
+
+assert version == "3120200"
+
+print(f"GDAL version: {version}")
